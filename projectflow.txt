@@ -1,0 +1,12 @@
+1> Create app.py file
+2> Create requirements.txt file which contains the required dependencies.
+3> Create dockerfile
+
+4> Install Docker Desktop
+5> Sign in to Dockerhub and Docker Desktop
+
+Docker Desktop:
+6> Check Docker install: cli -> `docker`
+7> Pull the hello-world image and run it,
+8> Build Docker image: `docker build -t mlops-docker-demo`
+9> Run the container: `docker run -p 5000:5000 (ie, docker_image_port:system_port) mlops-docker-demo`
